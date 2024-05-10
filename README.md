@@ -1,8 +1,8 @@
 # TAGIS - Trustification Automated Generating of Image SBOMs
 An automated tool for generating SBOM files for images analysis
 --------------------------------------------------------------------------
-This tool is used with Trustification project: https://github.com/trustification/trustification
-and https://github.com/RHEcosystemAppEng/exhort
+This tool is used with Trustification project https://github.com/trustification/trustification
+and the Exhort project https://github.com/RHEcosystemAppEng/exhort
 
 How to use the tool
 --------------------
