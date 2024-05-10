@@ -1,5 +1,5 @@
-# tagis - trustification automated generating of image SBOMs
-An automation for generating SBOM files for images
+# TAGIS - Trustification Automated Generating of Image SBOMs
+An automated tool for generating SBOM files for images analysis
 --------------------------------------------------------------------------
 
 How to use the tool
