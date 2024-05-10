@@ -1,6 +1,9 @@
-# oidc_automation_tool
-Creating an RHTPA bearer token to use when uploading SBOMs and VEX files
+# TAGIS - Trustification Automation of Generated Image SBOMs
+A tool for automating images' SBOM files for analysis
 --------------------------------------------------------------------------
+This tool works under the Trustification project (https://github.com/trustification/trustification)
+and the Exhort project (https://github.com/RHEcosystemAppEng/exhort)
 
-This automated tool is using the oidc Rust tool to extract a bearer token from RHTPA apllication,
-and then using it to upload SBOM files and VEX files to the system.
+How to use the tool?
+---------------------
+1. First clone the repository to your local machine: 
