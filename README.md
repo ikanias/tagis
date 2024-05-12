@@ -15,6 +15,6 @@ How to use the tool?
 5. In the second prompt insert the SBOM standard you want your SBOM to be generated in - cyclonedx or spdx
 6. In the last prompt insert the file name you want for your SBOM. There is no need to add a suffix of file type, the file is automatically created as a .json file
 
-While running the tool Syft will be installed in your environment, unless it is already installed, and continue with the SBOM creation. 
+While running the tool, Syft will be installed in your environment unless it is already installed, and continue with the SBOM creation. 
 During the SBOM being generated, you will see the purl of your image. This will be used later for sending the SBOM to Exhort for analysis using an API (i.e. with Postman). 
 This purl will have to be sent with the generated SBOM in the same POST request to get the vulnerability analysis of the image.
