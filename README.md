@@ -18,3 +18,4 @@ How to use the tool?
 While running the tool, Syft will be installed in your environment unless it is already installed, and continue with the SBOM creation. 
 During the SBOM being generated, you will see the purl of your image. This will be used later for sending the SBOM to Exhort for analysis using an API (i.e. with Postman). 
 This purl will have to be sent with the generated SBOM in the same POST request to get the vulnerability analysis of the image.
+![image](https://github.com/user-attachments/assets/fd537112-07f4-4f9d-a2a9-4082ddeb7987)
