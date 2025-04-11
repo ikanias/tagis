@@ -13,11 +13,11 @@ class AutoOidc(cmd.Cmd):
         lines = f.readlines()
         for line in lines:
             if line.find("Digest") != -1:
-                a = line.strip(' :,"')
-                b = a.lstrip('Digest":",')
-                c = b.strip(' ",')
-                d = c.replace('"', "")
-                digest = d.replace(',', "")
+                a = str(line.strip(' :,"'))
+                b = str(a.lstrip('Digest":",'))
+                c = str(b.strip(' ",'))
+                d = str(c.replace('"', ""))
+                digest = str(d.replace(',', ""))
                 print(digest)
                 break
         image_string = str(image)
